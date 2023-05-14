@@ -1,0 +1,1662 @@
+2022-04-03 00:08:24 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE ALUMNOS ( ID INT NOT NULL AUTO_INCR[*] EMENT,NOMBRE VARCHAR(150) NOT NULL, APELLIDO VARCHAR(150) NOT NULL, DNI INT  NOT NULL, LOCALIDAD  VARCHAR(150)  NOT NULL, PRIMARY KEY (ID)  )"; se esperaba "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE ALUMNOS ( ID INT NOT NULL AUTO_INCR[*] EMENT,NOMBRE VARCHAR(150) NOT NULL, APELLIDO VARCHAR(150) NOT NULL, DNI INT  NOT NULL, LOCALIDAD  VARCHAR(150)  NOT NULL, PRIMARY KEY (ID)  )"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE ALUMNOS ( id INT NOT NULL AUTO_INCR EMENT,Nombre VARCHAR(150) NOT NULL, Apellido VARCHAR(150) NOT NULL, DNI INT  NOT NULL, Localidad  VARCHAR(150)  NOT NULL, PRIMARY KEY (id)  ) [42001-200]
+2022-04-03 00:08:37 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( ID INT NOT NULL AUTO_INCR[*] EMENT,NOMBRE VARCHAR(150) NOT NULL, APELLIDO VARCHAR(150) NOT NULL, DNI INT  NOT NULL, LOCALIDAD  VARCHAR(150)  NOT NULL, PRIMARY KEY (ID)  )"; se esperaba "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( ID INT NOT NULL AUTO_INCR[*] EMENT,NOMBRE VARCHAR(150) NOT NULL, APELLIDO VARCHAR(150) NOT NULL, DNI INT  NOT NULL, LOCALIDAD  VARCHAR(150)  NOT NULL, PRIMARY KEY (ID)  )"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Cliente ( id INT NOT NULL AUTO_INCR EMENT,Nombre VARCHAR(150) NOT NULL, Apellido VARCHAR(150) NOT NULL, DNI INT  NOT NULL, Localidad  VARCHAR(150)  NOT NULL, PRIMARY KEY (id)  ) [42001-200]
+2022-04-03 00:15:14 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( ID INT NOT NULL AUTO_INCR[*] EMENT,NOMBRE VARCHAR(150) NOT NULL, APELLIDO VARCHAR(150) NOT NULL, DNI INT  NOT NULL, LOCALIDAD  VARCHAR(150)  NOT NULL, PRIMARY KEY (ID)  )"; se esperaba "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( ID INT NOT NULL AUTO_INCR[*] EMENT,NOMBRE VARCHAR(150) NOT NULL, APELLIDO VARCHAR(150) NOT NULL, DNI INT  NOT NULL, LOCALIDAD  VARCHAR(150)  NOT NULL, PRIMARY KEY (ID)  )"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Cliente ( id INT NOT NULL AUTO_INCR EMENT,Nombre VARCHAR(150) NOT NULL, Apellido VARCHAR(150) NOT NULL, DNI INT  NOT NULL, Localidad  VARCHAR(150)  NOT NULL, PRIMARY KEY (id)  ) [42001-200]
+2022-04-03 00:15:33 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE ALUMNOS ( ID INT NOT NULL AUTO_INCR[*] EMENT,NOMBRE VARCHAR(150) NOT NULL, APELLIDO VARCHAR(150) NOT NULL, DNI INT  NOT NULL, LEGAJO  INT  NOT NULL, PRIMARY KEY (ID)  )"; se esperaba "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE ALUMNOS ( ID INT NOT NULL AUTO_INCR[*] EMENT,NOMBRE VARCHAR(150) NOT NULL, APELLIDO VARCHAR(150) NOT NULL, DNI INT  NOT NULL, LEGAJO  INT  NOT NULL, PRIMARY KEY (ID)  )"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE ALUMNOS ( id INT NOT NULL AUTO_INCR EMENT,nombre VARCHAR(150) NOT NULL, apellido VARCHAR(150) NOT NULL, dni INT  NOT NULL, legajo  INT  NOT NULL, PRIMARY KEY (id)  ) [42001-200]
+2022-04-03 00:15:46 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE ALUMNOS ( ID INT NOT NULL AUTO_INCR[*] EMENT,NOMBRE VARCHAR(150) NOT NULL, APELLIDO VARCHAR(150) NOT NULL, DNI INT  NOT NULL, LEGAJO  INT  NOT NULL, PRIMARY KEY (ID)  )"; se esperaba "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE ALUMNOS ( ID INT NOT NULL AUTO_INCR[*] EMENT,NOMBRE VARCHAR(150) NOT NULL, APELLIDO VARCHAR(150) NOT NULL, DNI INT  NOT NULL, LEGAJO  INT  NOT NULL, PRIMARY KEY (ID)  )"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE ALUMNOS ( id INT NOT NULL AUTO_INCR EMENT,nombre VARCHAR(150) NOT NULL, apellido VARCHAR(150) NOT NULL, dni INT  NOT NULL, legajo  INT  NOT NULL, PRIMARY KEY (id)  ) [42001-200]
+2022-04-03 00:21:16 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Tipo de dato desconocido : "VARACHAR"
+Unknown data type: "VARACHAR"; SQL statement:
+create TABLE "Cliente" ( Nombre VARACHAR(150) NOT NULL, Apellido VARCHAR(150) NOT NULL, DNI VARCHAR (150) NOT NULL, Localidad VARCHAR(150) NOT NULL) [50004-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:505)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.command.Parser.parseColumnWithType(Parser.java:5971)
+	at org.h2.command.Parser.parseColumnForTable(Parser.java:5697)
+	at org.h2.command.Parser.parseTableColumnDefinition(Parser.java:8442)
+	at org.h2.command.Parser.parseCreateTable(Parser.java:8379)
+	at org.h2.command.Parser.parseCreate(Parser.java:6276)
+	at org.h2.command.Parser.parsePrepared(Parser.java:903)
+	at org.h2.command.Parser.parse(Parser.java:843)
+	at org.h2.command.Parser.parse(Parser.java:815)
+	at org.h2.command.Parser.prepareCommand(Parser.java:738)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:212)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:201)
+	at org.h2.server.web.WebApp.getResult(WebApp.java:1459)
+	at org.h2.server.web.WebApp.query(WebApp.java:1116)
+	at org.h2.server.web.WebApp.query(WebApp.java:1092)
+	at org.h2.server.web.WebApp.process(WebApp.java:241)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:173)
+	at org.h2.server.web.WebServlet.doGet(WebServlet.java:129)
+	at org.h2.server.web.WebServlet.doPost(WebServlet.java:166)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-03 00:23:45 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "Cliente" ya existe
+Table "Cliente" already exists; SQL statement:
+create TABLE "Cliente" ( Nombre VARCHAR(150) NOT NULL, Apellido VARCHAR(150) NOT NULL, DNI VARCHAR (150) NOT NULL, Localidad VARCHAR(150) NOT NULL) [42101-200]
+2022-04-03 00:23:45 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTE" no encontrada
+Table "CLIENTE" not found; SQL statement:
+INSERT INTO Cliente VALUES("Alexis", "Quiroga", "40300234", "Rio Tercero, Cordoba") [42102-200]
+2022-04-03 00:24:16 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTE" no encontrada
+Table "CLIENTE" not found; SQL statement:
+INSERT INTO Cliente VALUES("Alexis", "Quiroga", "40300234", "Rio Tercero, Cordoba") [42102-200]
+2022-04-03 00:25:16 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTE" no encontrada
+Table "CLIENTE" not found; SQL statement:
+INSERT INTO Cliente [42102-200]
+2022-04-03 00:25:16 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "Alexis" no encontrada
+Column "Alexis" not found; SQL statement:
+VALUES("Alexis", "Quiroga", "40300234", "Rio Tercero, Cordoba") [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:163)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:145)
+	at org.h2.command.Parser.parseValues(Parser.java:6438)
+	at org.h2.command.Parser.parseQuerySub(Parser.java:2822)
+	at org.h2.command.Parser.parseSelectUnion(Parser.java:2649)
+	at org.h2.command.Parser.parseQuery(Parser.java:2620)
+	at org.h2.command.Parser.parsePrepared(Parser.java:868)
+	at org.h2.command.Parser.parse(Parser.java:843)
+	at org.h2.command.Parser.parse(Parser.java:815)
+	at org.h2.command.Parser.prepareCommand(Parser.java:738)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:212)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:201)
+	at org.h2.server.web.WebApp.getResult(WebApp.java:1459)
+	at org.h2.server.web.WebApp.query(WebApp.java:1116)
+	at org.h2.server.web.WebApp.query(WebApp.java:1092)
+	at org.h2.server.web.WebApp.process(WebApp.java:241)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:173)
+	at org.h2.server.web.WebServlet.doGet(WebServlet.java:129)
+	at org.h2.server.web.WebServlet.doPost(WebServlet.java:166)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-03 00:25:26 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO VALUES[*](""Alexis"", ""Quiroga"", ""40300234"", ""Rio Tercero, Cordoba"")"; se esperaba "identifier"
+Syntax error in SQL statement "INSERT INTO VALUES[*](""Alexis"", ""Quiroga"", ""40300234"", ""Rio Tercero, Cordoba"")"; expected "identifier"; SQL statement:
+INSERT INTO VALUES("Alexis", "Quiroga", "40300234", "Rio Tercero, Cordoba") [42001-200]
+2022-04-03 00:25:52 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO VALUES[*](ALEXIS, QUIROGA, 40300234, RIO TERCERO)"; se esperaba "identifier"
+Syntax error in SQL statement "INSERT INTO VALUES[*](ALEXIS, QUIROGA, 40300234, RIO TERCERO)"; expected "identifier"; SQL statement:
+INSERT INTO VALUES(Alexis, Quiroga, 40300234, Rio Tercero) [42001-200]
+2022-04-03 00:26:35 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTE" no encontrada
+Table "CLIENTE" not found; SQL statement:
+INSERT INTO Cliente VALUES(Alexis, Quiroga, 40300234, Rio Tercero) [42102-200]
+2022-04-03 00:27:21 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTE" no encontrada
+Table "CLIENTE" not found; SQL statement:
+INSERT INTO Cliente
+VALUES(Alexis, Quiroga, 40300234, Rio Tercero) [42102-200]
+2022-04-03 00:27:27 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTE" no encontrada
+Table "CLIENTE" not found; SQL statement:
+INSERT INTO Cliente VALUES(Alexis, Quiroga, 40300234, Rio Tercero) [42102-200]
+2022-04-03 00:27:40 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO ""Cliente"" VALUES(ALEXIS, QUIROGA, 40300234, RIO TERCERO[*])"; se esperaba "(, ., [, ::, AT, FORMAT, *, /, %, +, -, ||, ~, !~, NOT, LIKE, ILIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"
+Syntax error in SQL statement "INSERT INTO ""Cliente"" VALUES(ALEXIS, QUIROGA, 40300234, RIO TERCERO[*])"; expected "(, ., [, ::, AT, FORMAT, *, /, %, +, -, ||, ~, !~, NOT, LIKE, ILIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO "Cliente" VALUES(Alexis, Quiroga, 40300234, Rio Tercero) [42001-200]
+2022-04-03 00:28:02 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTE" no encontrada
+Table "CLIENTE" not found; SQL statement:
+INSERT INTO Cliente VALUES( Alexis, Quiroga, 40300234, Rio Tercero) [42102-200]
+2022-04-03 00:28:02 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTE" no encontrada
+Table "CLIENTE" not found; SQL statement:
+INSERT INTO Cliente VALUES( Alexis, Quiroga, 40300234, Rio Tercero) [42102-200]
+2022-04-03 00:28:03 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTE" no encontrada
+Table "CLIENTE" not found; SQL statement:
+INSERT INTO Cliente VALUES( Alexis, Quiroga, 40300234, Rio Tercero) [42102-200]
+2022-04-03 00:28:03 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTE" no encontrada
+Table "CLIENTE" not found; SQL statement:
+INSERT INTO Cliente VALUES( Alexis, Quiroga, 40300234, Rio Tercero) [42102-200]
+2022-04-03 00:28:12 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTE" no encontrada
+Table "CLIENTE" not found; SQL statement:
+INSERT INTO Cliente VALUES( Alexis, Quiroga, 40300234, Rio Tercero) [42102-200]
+2022-04-03 00:36:38 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTE" no encontrada
+Table "CLIENTE" not found; SQL statement:
+INSERT INTO Cliente (nombre, apellido, dni, localidad)
+VALUES( Alexis, Quiroga, 40300234, Rio Tercero) [42102-200]
+2022-04-03 00:36:58 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTE" no encontrada
+Table "CLIENTE" not found; SQL statement:
+INSERT INTO Cliente (nombre, apellido, dni, localidad)
+VALUES( 'Alexis', 'Quiroga', '40300234', 'Rio Tercero') [42102-200]
+2022-04-03 00:36:59 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTE" no encontrada
+Table "CLIENTE" not found; SQL statement:
+INSERT INTO Cliente (nombre, apellido, dni, localidad)
+VALUES( 'Alexis', 'Quiroga', '40300234', 'Rio Tercero') [42102-200]
+2022-04-03 00:36:59 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTE" no encontrada
+Table "CLIENTE" not found; SQL statement:
+INSERT INTO Cliente (nombre, apellido, dni, localidad)
+VALUES( 'Alexis', 'Quiroga', '40300234', 'Rio Tercero') [42102-200]
+2022-04-03 00:36:59 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTE" no encontrada
+Table "CLIENTE" not found; SQL statement:
+INSERT INTO Cliente (nombre, apellido, dni, localidad)
+VALUES( 'Alexis', 'Quiroga', '40300234', 'Rio Tercero') [42102-200]
+2022-04-03 00:37:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTE" no encontrada
+Table "CLIENTE" not found; SQL statement:
+INSERT INTO Cliente (nombre, apellido, dni, localidad)
+VALUES( 'Alexis', 'Quiroga', '40300234', 'Rio Tercero') [42102-200]
+2022-04-03 00:37:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTE" no encontrada
+Table "CLIENTE" not found; SQL statement:
+INSERT INTO Cliente (nombre, apellido, dni, localidad)
+VALUES( 'Alexis', 'Quiroga', '40300234', 'Rio Tercero') [42102-200]
+2022-04-03 00:37:01 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTE" no encontrada
+Table "CLIENTE" not found; SQL statement:
+INSERT INTO Cliente (nombre, apellido, dni, localidad)
+VALUES( 'Alexis', 'Quiroga', '40300234', 'Rio Tercero') [42102-200]
+2022-04-03 00:37:01 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTE" no encontrada
+Table "CLIENTE" not found; SQL statement:
+INSERT INTO Cliente (nombre, apellido, dni, localidad)
+VALUES( 'Alexis', 'Quiroga', '40300234', 'Rio Tercero') [42102-200]
+2022-04-03 00:47:49 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( ID INT NOT NULL AUTOINCREMENT[*], NOMBRE VARCHAR(150) NOT NULL, APELLIDO VARCHAR(150) NOT NULL, DNI VARCHAR  NOT NULL, LOCALIDAD  VARCHAR(150)  NOT NULL, PRIMARY KEY (ID)  )"; se esperaba "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( ID INT NOT NULL AUTOINCREMENT[*], NOMBRE VARCHAR(150) NOT NULL, APELLIDO VARCHAR(150) NOT NULL, DNI VARCHAR  NOT NULL, LOCALIDAD  VARCHAR(150)  NOT NULL, PRIMARY KEY (ID)  )"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Cliente ( id INT NOT NULL AUTOINCREMENT, Nombre VARCHAR(150) NOT NULL, Apellido VARCHAR(150) NOT NULL, DNI VARCHAR  NOT NULL, Localidad  VARCHAR(150)  NOT NULL, PRIMARY KEY (id)  ) [42001-200]
+2022-04-03 00:48:01 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( ID LONG NOT NULL AUTOINCREMENT[*], NOMBRE VARCHAR(150) NOT NULL, APELLIDO VARCHAR(150) NOT NULL, DNI VARCHAR  NOT NULL, LOCALIDAD  VARCHAR(150)  NOT NULL, PRIMARY KEY (ID)  )"; se esperaba "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( ID LONG NOT NULL AUTOINCREMENT[*], NOMBRE VARCHAR(150) NOT NULL, APELLIDO VARCHAR(150) NOT NULL, DNI VARCHAR  NOT NULL, LOCALIDAD  VARCHAR(150)  NOT NULL, PRIMARY KEY (ID)  )"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Cliente ( id LONG NOT NULL AUTOINCREMENT, Nombre VARCHAR(150) NOT NULL, Apellido VARCHAR(150) NOT NULL, DNI VARCHAR  NOT NULL, Localidad  VARCHAR(150)  NOT NULL, PRIMARY KEY (id)  ) [42001-200]
+2022-04-03 00:49:06 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL, PRIMARY KEY (ID) )"; se esperaba "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL, PRIMARY KEY (ID) )"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Cliente ( "id" INT NOT NULL AUTOINCREMENT, "Nombre" VARCHAR(150) NOT NULL, "Apellido" VARCHAR(150) NOT NULL, "DNI" VARCHAR  NOT NULL, "Localidad"  VARCHAR(150)  NOT NULL, PRIMARY KEY (id) ) [42001-200]
+2022-04-03 00:49:16 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; se esperaba "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Cliente ( "id" INT NOT NULL AUTOINCREMENT, "Nombre" VARCHAR(150) NOT NULL, "Apellido" VARCHAR(150) NOT NULL, "DNI" VARCHAR  NOT NULL, "Localidad"  VARCHAR(150)  NOT NULL) [42001-200]
+2022-04-03 00:49:16 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; se esperaba "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Cliente ( "id" INT NOT NULL AUTOINCREMENT, "Nombre" VARCHAR(150) NOT NULL, "Apellido" VARCHAR(150) NOT NULL, "DNI" VARCHAR  NOT NULL, "Localidad"  VARCHAR(150)  NOT NULL) [42001-200]
+2022-04-03 00:49:16 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; se esperaba "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Cliente ( "id" INT NOT NULL AUTOINCREMENT, "Nombre" VARCHAR(150) NOT NULL, "Apellido" VARCHAR(150) NOT NULL, "DNI" VARCHAR  NOT NULL, "Localidad"  VARCHAR(150)  NOT NULL) [42001-200]
+2022-04-03 00:49:17 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; se esperaba "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Cliente ( "id" INT NOT NULL AUTOINCREMENT, "Nombre" VARCHAR(150) NOT NULL, "Apellido" VARCHAR(150) NOT NULL, "DNI" VARCHAR  NOT NULL, "Localidad"  VARCHAR(150)  NOT NULL) [42001-200]
+2022-04-03 00:49:17 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; se esperaba "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Cliente ( "id" INT NOT NULL AUTOINCREMENT, "Nombre" VARCHAR(150) NOT NULL, "Apellido" VARCHAR(150) NOT NULL, "DNI" VARCHAR  NOT NULL, "Localidad"  VARCHAR(150)  NOT NULL) [42001-200]
+2022-04-03 00:49:17 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; se esperaba "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Cliente ( "id" INT NOT NULL AUTOINCREMENT, "Nombre" VARCHAR(150) NOT NULL, "Apellido" VARCHAR(150) NOT NULL, "DNI" VARCHAR  NOT NULL, "Localidad"  VARCHAR(150)  NOT NULL) [42001-200]
+2022-04-03 00:49:17 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; se esperaba "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Cliente ( "id" INT NOT NULL AUTOINCREMENT, "Nombre" VARCHAR(150) NOT NULL, "Apellido" VARCHAR(150) NOT NULL, "DNI" VARCHAR  NOT NULL, "Localidad"  VARCHAR(150)  NOT NULL) [42001-200]
+2022-04-03 00:49:17 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; se esperaba "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Cliente ( "id" INT NOT NULL AUTOINCREMENT, "Nombre" VARCHAR(150) NOT NULL, "Apellido" VARCHAR(150) NOT NULL, "DNI" VARCHAR  NOT NULL, "Localidad"  VARCHAR(150)  NOT NULL) [42001-200]
+2022-04-03 00:49:18 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; se esperaba "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Cliente ( "id" INT NOT NULL AUTOINCREMENT, "Nombre" VARCHAR(150) NOT NULL, "Apellido" VARCHAR(150) NOT NULL, "DNI" VARCHAR  NOT NULL, "Localidad"  VARCHAR(150)  NOT NULL) [42001-200]
+2022-04-03 00:49:18 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; se esperaba "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Cliente ( "id" INT NOT NULL AUTOINCREMENT, "Nombre" VARCHAR(150) NOT NULL, "Apellido" VARCHAR(150) NOT NULL, "DNI" VARCHAR  NOT NULL, "Localidad"  VARCHAR(150)  NOT NULL) [42001-200]
+2022-04-03 00:49:18 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; se esperaba "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Cliente ( "id" INT NOT NULL AUTOINCREMENT, "Nombre" VARCHAR(150) NOT NULL, "Apellido" VARCHAR(150) NOT NULL, "DNI" VARCHAR  NOT NULL, "Localidad"  VARCHAR(150)  NOT NULL) [42001-200]
+2022-04-03 00:49:38 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*][1], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; se esperaba "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*][1], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Cliente ( "id" INT NOT NULL AUTOINCREMENT[1], "Nombre" VARCHAR(150) NOT NULL, "Apellido" VARCHAR(150) NOT NULL, "DNI" VARCHAR  NOT NULL, "Localidad"  VARCHAR(150)  NOT NULL) [42001-200]
+2022-04-03 00:49:44 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*][], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; se esperaba "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*][], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Cliente ( "id" INT NOT NULL AUTOINCREMENT[], "Nombre" VARCHAR(150) NOT NULL, "Apellido" VARCHAR(150) NOT NULL, "DNI" VARCHAR  NOT NULL, "Localidad"  VARCHAR(150)  NOT NULL) [42001-200]
+2022-04-03 00:49:44 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*][], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; se esperaba "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*][], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Cliente ( "id" INT NOT NULL AUTOINCREMENT[], "Nombre" VARCHAR(150) NOT NULL, "Apellido" VARCHAR(150) NOT NULL, "DNI" VARCHAR  NOT NULL, "Localidad"  VARCHAR(150)  NOT NULL) [42001-200]
+2022-04-03 00:49:45 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*][], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; se esperaba "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*][], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Cliente ( "id" INT NOT NULL AUTOINCREMENT[], "Nombre" VARCHAR(150) NOT NULL, "Apellido" VARCHAR(150) NOT NULL, "DNI" VARCHAR  NOT NULL, "Localidad"  VARCHAR(150)  NOT NULL) [42001-200]
+2022-04-03 00:49:45 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*][], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; se esperaba "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*][], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Cliente ( "id" INT NOT NULL AUTOINCREMENT[], "Nombre" VARCHAR(150) NOT NULL, "Apellido" VARCHAR(150) NOT NULL, "DNI" VARCHAR  NOT NULL, "Localidad"  VARCHAR(150)  NOT NULL) [42001-200]
+2022-04-03 00:49:45 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*][], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; se esperaba "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*][], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Cliente ( "id" INT NOT NULL AUTOINCREMENT[], "Nombre" VARCHAR(150) NOT NULL, "Apellido" VARCHAR(150) NOT NULL, "DNI" VARCHAR  NOT NULL, "Localidad"  VARCHAR(150)  NOT NULL) [42001-200]
+2022-04-03 00:49:45 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*][], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; se esperaba "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*][], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Cliente ( "id" INT NOT NULL AUTOINCREMENT[], "Nombre" VARCHAR(150) NOT NULL, "Apellido" VARCHAR(150) NOT NULL, "DNI" VARCHAR  NOT NULL, "Localidad"  VARCHAR(150)  NOT NULL) [42001-200]
+2022-04-03 00:49:45 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*][], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; se esperaba "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*][], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Cliente ( "id" INT NOT NULL AUTOINCREMENT[], "Nombre" VARCHAR(150) NOT NULL, "Apellido" VARCHAR(150) NOT NULL, "DNI" VARCHAR  NOT NULL, "Localidad"  VARCHAR(150)  NOT NULL) [42001-200]
+2022-04-03 00:49:46 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*][], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; se esperaba "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*][], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Cliente ( "id" INT NOT NULL AUTOINCREMENT[], "Nombre" VARCHAR(150) NOT NULL, "Apellido" VARCHAR(150) NOT NULL, "DNI" VARCHAR  NOT NULL, "Localidad"  VARCHAR(150)  NOT NULL) [42001-200]
+2022-04-03 00:49:46 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*][], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; se esperaba "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE CLIENTE ( ""id"" INT NOT NULL AUTOINCREMENT[*][], ""Nombre"" VARCHAR(150) NOT NULL, ""Apellido"" VARCHAR(150) NOT NULL, ""DNI"" VARCHAR  NOT NULL, ""Localidad""  VARCHAR(150)  NOT NULL)"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Cliente ( "id" INT NOT NULL AUTOINCREMENT[], "Nombre" VARCHAR(150) NOT NULL, "Apellido" VARCHAR(150) NOT NULL, "DNI" VARCHAR  NOT NULL, "Localidad"  VARCHAR(150)  NOT NULL) [42001-200]
+2022-04-03 00:50:43 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL """Cliente""[*]"
+Syntax error in SQL statement """Cliente""[*]"; SQL statement:
+"Cliente" [42000-200]
+2022-04-03 00:53:44 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "NOMBRE[*]"
+Syntax error in SQL statement "NOMBRE[*]"; SQL statement:
+NOMBRE [42000-200]
+2022-04-03 00:53:53 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "ID[*] 11"; se esperaba "INSERT"
+Syntax error in SQL statement "ID[*] 11"; expected "INSERT"; SQL statement:
+ID 11 [42001-200]
+2022-04-03 00:54:03 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "ID[*] '11'"; se esperaba "INSERT"
+Syntax error in SQL statement "ID[*] '11'"; expected "INSERT"; SQL statement:
+ID '11' [42001-200]
+2022-04-03 00:54:17 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CLIENTE[*] 'Alexis'"; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CLIENTE[*] 'Alexis'"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+CLIENTE 'Alexis' [42001-200]
+2022-04-03 00:54:26 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DNI[*]"; se esperaba "DELETE, DROP, DECLARE, DEALLOCATE"
+Syntax error in SQL statement "DNI[*]"; expected "DELETE, DROP, DECLARE, DEALLOCATE"; SQL statement:
+DNI [42001-200]
+2022-04-03 00:54:59 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP ""Cliente""[*]"; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP ""Cliente""[*]"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP "Cliente" [42001-200]
+2022-04-03 00:55:17 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL """Cliente""[*]"
+Syntax error in SQL statement """Cliente""[*]"; SQL statement:
+"Cliente" [42000-200]
+2022-04-03 00:55:31 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DNI[*]"; se esperaba "DELETE, DROP, DECLARE, DEALLOCATE"
+Syntax error in SQL statement "DNI[*]"; expected "DELETE, DROP, DECLARE, DEALLOCATE"; SQL statement:
+DNI [42001-200]
+2022-04-03 00:55:43 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "APELLIDO[*] APELLIDO"; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "APELLIDO[*] APELLIDO"; expected "ALTER, ANALYZE"; SQL statement:
+APELLIDO APELLIDO [42001-200]
+2022-04-03 00:56:16 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "APELLIDO[*] 'Quiroga' ALTER"; se esperaba "ALTER, ANALYZE"
+Syntax error in SQL statement "APELLIDO[*] 'Quiroga' ALTER"; expected "ALTER, ANALYZE"; SQL statement:
+APELLIDO 'Quiroga' ALTER [42001-200]
+2022-04-03 00:57:04 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * FROM CLIENTE ID DNI[*]"
+Syntax error in SQL statement "SELECT * FROM CLIENTE ID DNI[*]"; SQL statement:
+SELECT * FROM CLIENTE ID DNI [42000-200]
+2022-04-03 00:57:09 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "DNI" no encontrada
+Table "DNI" not found; SQL statement:
+SELECT * FROM CLIENTE ID, DNI [42102-200]
+2022-04-03 00:57:10 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "DNI" no encontrada
+Table "DNI" not found; SQL statement:
+SELECT * FROM CLIENTE ID, DNI [42102-200]
+2022-04-03 00:57:10 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "DNI" no encontrada
+Table "DNI" not found; SQL statement:
+SELECT * FROM CLIENTE ID, DNI [42102-200]
+2022-04-03 00:57:23 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * FROM CLIENTE 'Alexis'[*]"
+Syntax error in SQL statement "SELECT * FROM CLIENTE 'Alexis'[*]"; SQL statement:
+SELECT * FROM CLIENTE 'Alexis' [42000-200]
+2022-04-03 00:57:24 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * FROM CLIENTE 'Alexis'[*]"
+Syntax error in SQL statement "SELECT * FROM CLIENTE 'Alexis'[*]"; SQL statement:
+SELECT * FROM CLIENTE 'Alexis' [42000-200]
+2022-04-03 00:57:24 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * FROM CLIENTE 'Alexis'[*]"
+Syntax error in SQL statement "SELECT * FROM CLIENTE 'Alexis'[*]"; SQL statement:
+SELECT * FROM CLIENTE 'Alexis' [42000-200]
+2022-04-03 00:57:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * FROM CLIENTE 'Alexis'[*]"
+Syntax error in SQL statement "SELECT * FROM CLIENTE 'Alexis'[*]"; SQL statement:
+SELECT * FROM CLIENTE 'Alexis' [42000-200]
+2022-04-03 00:57:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * FROM CLIENTE 'Alexis'[*]"
+Syntax error in SQL statement "SELECT * FROM CLIENTE 'Alexis'[*]"; SQL statement:
+SELECT * FROM CLIENTE 'Alexis' [42000-200]
+2022-04-03 00:57:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * FROM CLIENTE 'Alexis'[*]"
+Syntax error in SQL statement "SELECT * FROM CLIENTE 'Alexis'[*]"; SQL statement:
+SELECT * FROM CLIENTE 'Alexis' [42000-200]
+2022-04-03 00:57:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * FROM CLIENTE 'Alexis'[*]"
+Syntax error in SQL statement "SELECT * FROM CLIENTE 'Alexis'[*]"; SQL statement:
+SELECT * FROM CLIENTE 'Alexis' [42000-200]
+2022-04-03 00:57:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * FROM CLIENTE 'Alexis'[*]"
+Syntax error in SQL statement "SELECT * FROM CLIENTE 'Alexis'[*]"; SQL statement:
+SELECT * FROM CLIENTE 'Alexis' [42000-200]
+2022-04-03 00:57:35 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * FROM CLIENTE NOMBRE  'Alexis'[*]"
+Syntax error in SQL statement "SELECT * FROM CLIENTE NOMBRE  'Alexis'[*]"; SQL statement:
+SELECT * FROM CLIENTE NOMBRE  'Alexis' [42000-200]
+2022-04-03 00:57:54 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * FROM CLIENTE NOMBRE  ""Cliente""[*]"
+Syntax error in SQL statement "SELECT * FROM CLIENTE NOMBRE  ""Cliente""[*]"; SQL statement:
+SELECT * FROM CLIENTE NOMBRE  "Cliente" [42000-200]
+2022-04-03 01:03:05 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "ID" no encontrada
+Table "ID" not found; SQL statement:
+SELECT * FROM ID [42102-200]
+2022-04-03 01:03:15 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "ID[*]"; se esperaba "INSERT"
+Syntax error in SQL statement "ID[*]"; expected "INSERT"; SQL statement:
+ID [42001-200]
+2022-04-03 01:03:40 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "NOMBRE[*]"
+Syntax error in SQL statement "NOMBRE[*]"; SQL statement:
+NOMBRE [42000-200]
+2022-04-03 01:03:42 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "NOMBRE[*]"
+Syntax error in SQL statement "NOMBRE[*]"; SQL statement:
+NOMBRE [42000-200]
+2022-04-03 01:03:43 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "NOMBRE[*]"
+Syntax error in SQL statement "NOMBRE[*]"; SQL statement:
+NOMBRE [42000-200]
+2022-04-03 01:04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Conversión de datos fallida, convirtiendo "Abila"
+Data conversion error converting "Abila"; SQL statement:
+SELECT * FROM CLIENTE WHERE APELLIDO [22018-200]
+2022-04-03 01:05:32 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP DATABASE[*] ""Cliente"""; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP DATABASE[*] ""Cliente"""; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP DATABASE "Cliente" [42001-200]
+2022-04-03 01:05:33 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP DATABASE[*] ""Cliente"""; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP DATABASE[*] ""Cliente"""; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP DATABASE "Cliente" [42001-200]
+2022-04-03 01:05:38 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP DATABASE[*] CLIENTE"; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP DATABASE[*] CLIENTE"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP DATABASE Cliente [42001-200]
+2022-04-03 01:05:43 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP DATABASE[*]"; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP DATABASE[*]"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP DATABASE [42001-200]
+2022-04-03 01:05:43 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP DATABASE[*]"; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP DATABASE[*]"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP DATABASE [42001-200]
+2022-04-03 01:05:44 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP DATABASE[*]"; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP DATABASE[*]"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP DATABASE [42001-200]
+2022-04-03 01:05:44 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP DATABASE[*]"; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP DATABASE[*]"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP DATABASE [42001-200]
+2022-04-03 01:05:44 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP DATABASE[*]"; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP DATABASE[*]"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP DATABASE [42001-200]
+2022-04-03 01:05:44 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP DATABASE[*]"; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP DATABASE[*]"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP DATABASE [42001-200]
+2022-04-03 01:05:44 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP DATABASE[*]"; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP DATABASE[*]"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP DATABASE [42001-200]
+2022-04-03 01:06:46 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP DATABASE[*] ""Cliente"""; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP DATABASE[*] ""Cliente"""; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP DATABASE "Cliente" [42001-200]
+2022-04-03 01:06:47 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP DATABASE[*] ""Cliente"""; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP DATABASE[*] ""Cliente"""; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP DATABASE "Cliente" [42001-200]
+2022-04-03 01:06:47 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP DATABASE[*] ""Cliente"""; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP DATABASE[*] ""Cliente"""; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP DATABASE "Cliente" [42001-200]
+2022-04-03 01:06:47 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP DATABASE[*] ""Cliente"""; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP DATABASE[*] ""Cliente"""; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP DATABASE "Cliente" [42001-200]
+2022-04-03 01:06:48 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP DATABASE[*] ""Cliente"""; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP DATABASE[*] ""Cliente"""; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP DATABASE "Cliente" [42001-200]
+2022-04-03 01:06:48 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP DATABASE[*] ""Cliente"""; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP DATABASE[*] ""Cliente"""; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP DATABASE "Cliente" [42001-200]
+2022-04-03 01:06:55 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP DATABASE[*] CLIENTE"; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP DATABASE[*] CLIENTE"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP DATABASE Cliente [42001-200]
+2022-04-03 01:06:56 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP DATABASE[*] CLIENTE"; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP DATABASE[*] CLIENTE"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP DATABASE Cliente [42001-200]
+2022-04-03 01:06:56 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP DATABASE[*] CLIENTE"; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP DATABASE[*] CLIENTE"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP DATABASE Cliente [42001-200]
+2022-04-03 01:06:57 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP DATABASE[*] CLIENTE"; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP DATABASE[*] CLIENTE"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP DATABASE Cliente [42001-200]
+2022-04-03 01:06:57 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP DATABASE[*] CLIENTE"; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP DATABASE[*] CLIENTE"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP DATABASE Cliente [42001-200]
+2022-04-03 01:06:57 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP DATABASE[*] CLIENTE"; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP DATABASE[*] CLIENTE"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP DATABASE Cliente [42001-200]
+2022-04-03 01:30:52 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * FROM CLIENTE FOR APELLIDO[*]"
+Syntax error in SQL statement "SELECT * FROM CLIENTE FOR APELLIDO[*]"; SQL statement:
+SELECT * FROM CLIENTE FOR APELLIDO [42000-200]
+2022-04-03 02:07:32 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP TABLE IF EXISTS ""Cliente"" TEST[*]"
+Syntax error in SQL statement "DROP TABLE IF EXISTS ""Cliente"" TEST[*]"; SQL statement:
+DROP TABLE IF EXISTS "Cliente" TEST [42000-200]
+2022-04-03 02:07:46 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP TABLE IF ""Cliente""[*] TEST"; se esperaba "EXISTS"
+Syntax error in SQL statement "DROP TABLE IF ""Cliente""[*] TEST"; expected "EXISTS"; SQL statement:
+DROP TABLE IF "Cliente" TEST [42001-200]
+2022-04-03 02:07:46 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP TABLE IF ""Cliente""[*] TEST"; se esperaba "EXISTS"
+Syntax error in SQL statement "DROP TABLE IF ""Cliente""[*] TEST"; expected "EXISTS"; SQL statement:
+DROP TABLE IF "Cliente" TEST [42001-200]
+2022-04-03 02:07:47 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP TABLE IF ""Cliente""[*] TEST"; se esperaba "EXISTS"
+Syntax error in SQL statement "DROP TABLE IF ""Cliente""[*] TEST"; expected "EXISTS"; SQL statement:
+DROP TABLE IF "Cliente" TEST [42001-200]
+2022-04-03 02:07:47 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP TABLE IF ""Cliente""[*] TEST"; se esperaba "EXISTS"
+Syntax error in SQL statement "DROP TABLE IF ""Cliente""[*] TEST"; expected "EXISTS"; SQL statement:
+DROP TABLE IF "Cliente" TEST [42001-200]
+2022-04-03 02:07:47 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP TABLE IF ""Cliente""[*] TEST"; se esperaba "EXISTS"
+Syntax error in SQL statement "DROP TABLE IF ""Cliente""[*] TEST"; expected "EXISTS"; SQL statement:
+DROP TABLE IF "Cliente" TEST [42001-200]
+2022-04-03 02:07:47 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP TABLE IF ""Cliente""[*] TEST"; se esperaba "EXISTS"
+Syntax error in SQL statement "DROP TABLE IF ""Cliente""[*] TEST"; expected "EXISTS"; SQL statement:
+DROP TABLE IF "Cliente" TEST [42001-200]
+2022-04-03 02:10:31 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP TABLE IF ""Cliente""[*]"; se esperaba "EXISTS"
+Syntax error in SQL statement "DROP TABLE IF ""Cliente""[*]"; expected "EXISTS"; SQL statement:
+DROP TABLE IF "Cliente" [42001-200]
+2022-04-03 02:10:38 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP TABLE IF ""Cliente""[*]"; se esperaba "EXISTS"
+Syntax error in SQL statement "DROP TABLE IF ""Cliente""[*]"; expected "EXISTS"; SQL statement:
+DROP TABLE IF "Cliente" [42001-200]
+2022-04-03 02:10:38 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP TABLE IF ""Cliente""[*]"; se esperaba "EXISTS"
+Syntax error in SQL statement "DROP TABLE IF ""Cliente""[*]"; expected "EXISTS"; SQL statement:
+DROP TABLE IF "Cliente" [42001-200]
+2022-04-03 02:10:39 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP TABLE IF ""Cliente""[*]"; se esperaba "EXISTS"
+Syntax error in SQL statement "DROP TABLE IF ""Cliente""[*]"; expected "EXISTS"; SQL statement:
+DROP TABLE IF "Cliente" [42001-200]
+2022-04-03 02:10:39 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP TABLE IF ""Cliente""[*]"; se esperaba "EXISTS"
+Syntax error in SQL statement "DROP TABLE IF ""Cliente""[*]"; expected "EXISTS"; SQL statement:
+DROP TABLE IF "Cliente" [42001-200]
+2022-04-03 02:10:39 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP TABLE IF ""Cliente""[*]"; se esperaba "EXISTS"
+Syntax error in SQL statement "DROP TABLE IF ""Cliente""[*]"; expected "EXISTS"; SQL statement:
+DROP TABLE IF "Cliente" [42001-200]
+2022-04-03 02:10:39 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP TABLE IF ""Cliente""[*]"; se esperaba "EXISTS"
+Syntax error in SQL statement "DROP TABLE IF ""Cliente""[*]"; expected "EXISTS"; SQL statement:
+DROP TABLE IF "Cliente" [42001-200]
+2022-04-03 20:56:37 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Conversión de datos fallida, convirtiendo "Mouse inalambrico"
+Data conversion error converting "Mouse inalambrico"; SQL statement:
+SELECT * FROM PRODUCTO WHERE PRECIO_UNITARIO = 'Mouse inalambrico' [22018-200]
+2022-04-03 20:56:46 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * FROM PRODUCTO WHERE PRECIO_UNITARIO = MOUSE INALAMBRICO[*]"
+Syntax error in SQL statement "SELECT * FROM PRODUCTO WHERE PRECIO_UNITARIO = MOUSE INALAMBRICO[*]"; SQL statement:
+SELECT * FROM PRODUCTO WHERE PRECIO_UNITARIO = Mouse inalambrico [42000-200]
+2022-04-03 20:56:54 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "MOUSE_INALAMBRICO" no encontrada
+Column "MOUSE_INALAMBRICO" not found; SQL statement:
+SELECT * FROM PRODUCTO WHERE PRECIO_UNITARIO = Mouse_inalambrico [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:163)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:145)
+	at org.h2.expression.condition.Comparison.optimize(Comparison.java:191)
+	at org.h2.command.dml.Select.prepare(Select.java:1209)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:212)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:201)
+	at org.h2.server.web.WebApp.getResult(WebApp.java:1459)
+	at org.h2.server.web.WebApp.query(WebApp.java:1116)
+	at org.h2.server.web.WebApp.query(WebApp.java:1092)
+	at org.h2.server.web.WebApp.process(WebApp.java:241)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:173)
+	at org.h2.server.web.WebServlet.doGet(WebServlet.java:129)
+	at org.h2.server.web.WebServlet.doPost(WebServlet.java:166)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-03 21:19:13 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * FROM CLIENTE AND PRODUCTO[*]"
+Syntax error in SQL statement "SELECT * FROM CLIENTE AND PRODUCTO[*]"; SQL statement:
+SELECT * FROM CLIENTE AND PRODUCTO [42000-200]
+2022-04-03 21:19:32 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * FROMLOCALIDAD[*]"
+Syntax error in SQL statement "SELECT * FROMLOCALIDAD[*]"; SQL statement:
+SELECT * FROMLOCALIDAD [42000-200]
+2022-04-03 21:19:49 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * FROMLOCALIDAD[*] INFORMATION_SCHEMA.CATALOGS"
+Syntax error in SQL statement "SELECT * FROMLOCALIDAD[*] INFORMATION_SCHEMA.CATALOGS"; SQL statement:
+SELECT * FROMLOCALIDAD INFORMATION_SCHEMA.CATALOGS [42000-200]
+2022-04-03 21:19:54 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INFORMATION_SCHEMA[*].CATALOGS"; se esperaba "INSERT"
+Syntax error in SQL statement "INFORMATION_SCHEMA[*].CATALOGS"; expected "INSERT"; SQL statement:
+INFORMATION_SCHEMA.CATALOGS [42001-200]
+2022-04-03 21:20:33 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * FROM CLIENTE EXCEPT ID[*]"; se esperaba "(, WITH, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "SELECT * FROM CLIENTE EXCEPT ID[*]"; expected "(, WITH, SELECT, TABLE, VALUES"; SQL statement:
+SELECT * FROM CLIENTE EXCEPT ID [42001-200]
+2022-04-03 21:24:02 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * FROM CLIENTE USE DNI[*]"
+Syntax error in SQL statement "SELECT * FROM CLIENTE USE DNI[*]"; SQL statement:
+SELECT * FROM CLIENTE USE DNI [42000-200]
+2022-04-03 21:25:01 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * FROM PRODUCTO   WHERE NOMBRE,[*]DNI"
+Syntax error in SQL statement "SELECT * FROM PRODUCTO   WHERE NOMBRE,[*]DNI"; SQL statement:
+SELECT * FROM PRODUCTO   WHERE NOMBRE,DNI [42000-200]
+2022-04-03 21:25:11 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "DNI" no encontrada
+Column "DNI" not found; SQL statement:
+SELECT * FROM PRODUCTO   WHERE NOMBRE AND DNI [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:163)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:145)
+	at org.h2.expression.condition.ConditionAndOr.optimize(ConditionAndOr.java:136)
+	at org.h2.command.dml.Select.prepare(Select.java:1209)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:212)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:201)
+	at org.h2.server.web.WebApp.getResult(WebApp.java:1459)
+	at org.h2.server.web.WebApp.query(WebApp.java:1116)
+	at org.h2.server.web.WebApp.query(WebApp.java:1092)
+	at org.h2.server.web.WebApp.process(WebApp.java:241)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:173)
+	at org.h2.server.web.WebServlet.doGet(WebServlet.java:129)
+	at org.h2.server.web.WebServlet.doPost(WebServlet.java:166)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-03 21:25:22 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * FROM PRODUCTO AS  NOMBRE AND[*] DNI"
+Syntax error in SQL statement "SELECT * FROM PRODUCTO AS  NOMBRE AND[*] DNI"; SQL statement:
+SELECT * FROM PRODUCTO AS  NOMBRE AND DNI [42000-200]
+2022-04-03 21:25:51 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "LOCALIDAD" no encontrada
+Column "LOCALIDAD" not found; SQL statement:
+SELECT LOCALIDAD  FROM PRODUCTO [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:163)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:145)
+	at org.h2.command.dml.Select.prepare(Select.java:1206)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:212)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:201)
+	at org.h2.server.web.WebApp.getResult(WebApp.java:1459)
+	at org.h2.server.web.WebApp.query(WebApp.java:1116)
+	at org.h2.server.web.WebApp.query(WebApp.java:1092)
+	at org.h2.server.web.WebApp.process(WebApp.java:241)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:173)
+	at org.h2.server.web.WebServlet.doGet(WebServlet.java:129)
+	at org.h2.server.web.WebServlet.doPost(WebServlet.java:166)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-03 21:26:22 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Conversión de datos fallida, convirtiendo "Cubo Rubik 3x3 para niños"
+Data conversion error converting "Cubo Rubik 3x3 para niños"; SQL statement:
+SELECT DETALLE AND ID    FROM PRODUCTO [22018-200]
+2022-04-03 21:26:29 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Conversión de datos fallida, convirtiendo "Cubo Rubik 3x3 para niños"
+Data conversion error converting "Cubo Rubik 3x3 para niños"; SQL statement:
+SELECT DETALLE AND NOMBRE    FROM PRODUCTO [22018-200]
+2022-04-03 21:56:05 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * FROM CLIENTE AND SELECT[*] * FROM PRODUCTO"
+Syntax error in SQL statement "SELECT * FROM CLIENTE AND SELECT[*] * FROM PRODUCTO"; SQL statement:
+SELECT * FROM CLIENTE AND SELECT * FROM PRODUCTO [42000-200]
+2022-04-03 21:59:35 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "PRECIO_UNITARIO" no encontrada
+Column "PRECIO_UNITARIO" not found; SQL statement:
+SELECT ID ,NOMBRE ,PRECIO_UNITARIO  FROM CLIENTE [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:163)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:145)
+	at org.h2.command.dml.Select.prepare(Select.java:1206)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:212)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:201)
+	at org.h2.server.web.WebApp.getResult(WebApp.java:1459)
+	at org.h2.server.web.WebApp.query(WebApp.java:1116)
+	at org.h2.server.web.WebApp.query(WebApp.java:1092)
+	at org.h2.server.web.WebApp.process(WebApp.java:241)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:173)
+	at org.h2.server.web.WebServlet.doGet(WebServlet.java:129)
+	at org.h2.server.web.WebServlet.doPost(WebServlet.java:166)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-03 22:00:37 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "PRECIO_UNITARIO" no encontrada
+Column "PRECIO_UNITARIO" not found; SQL statement:
+SELECT ID, NOMBRE, PRECIO_UNITARIO  FROM CLIENTE [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:163)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:145)
+	at org.h2.command.dml.Select.prepare(Select.java:1206)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:212)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:201)
+	at org.h2.server.web.WebApp.getResult(WebApp.java:1459)
+	at org.h2.server.web.WebApp.query(WebApp.java:1116)
+	at org.h2.server.web.WebApp.query(WebApp.java:1092)
+	at org.h2.server.web.WebApp.process(WebApp.java:241)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:173)
+	at org.h2.server.web.WebServlet.doGet(WebServlet.java:129)
+	at org.h2.server.web.WebServlet.doPost(WebServlet.java:166)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-03 22:08:58 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP CLIENTE[*]"; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP CLIENTE[*]"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP CLIENTE [42001-200]
+2022-04-03 22:11:10 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DELETE TABLE[*] CLIENTE"; se esperaba "identifier"
+Syntax error in SQL statement "DELETE TABLE[*] CLIENTE"; expected "identifier"; SQL statement:
+DELETE TABLE CLIENTE [42001-200]
+2022-04-03 22:13:00 database: flush
+org.h2.message.DbException: Error General : "java.lang.IllegalStateException: The file is locked: nio:C:/Users/quiro/Desktop/proyectofacturacion/data/coderHouse.mv.db [1.4.200/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/quiro/Desktop/proyectofacturacion/data/coderHouse.mv.db [1.4.200/7]" [50000-200]
+	at org.h2.message.DbException.get(DbException.java:194)
+	at org.h2.message.DbException.convert(DbException.java:347)
+	at org.h2.mvstore.db.MVTableEngine$1.uncaughtException(MVTableEngine.java:93)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:2877)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:481)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:402)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:3579)
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:170)
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:103)
+	at org.h2.engine.Database.getPageStore(Database.java:2659)
+	at org.h2.engine.Database.open(Database.java:675)
+	at org.h2.engine.Database.openDatabase(Database.java:307)
+	at org.h2.engine.Database.<init>(Database.java:301)
+	at org.h2.engine.Engine.openSession(Engine.java:74)
+	at org.h2.engine.Engine.openSession(Engine.java:192)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:171)
+	at org.h2.engine.Engine.createSession(Engine.java:166)
+	at org.h2.engine.Engine.createSession(Engine.java:29)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:340)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:173)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:152)
+	at org.h2.Driver.connect(Driver.java:69)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:330)
+	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.isEmbedded(EmbeddedDatabaseConnection.java:162)
+	at org.springframework.boot.jdbc.init.DataSourceScriptDatabaseInitializer.isEmbeddedDatabase(DataSourceScriptDatabaseInitializer.java:70)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.isEnabled(AbstractScriptDatabaseInitializer.java:83)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyScripts(AbstractScriptDatabaseInitializer.java:106)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyDataScripts(AbstractScriptDatabaseInitializer.java:101)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.initializeDatabase(AbstractScriptDatabaseInitializer.java:76)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.afterPropertiesSet(AbstractScriptDatabaseInitializer.java:65)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:136)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$8(ClassBasedTestDescriptor.java:363)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:368)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$9(ClassBasedTestDescriptor.java:363)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:362)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:283)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:282)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:272)
+	at java.base/java.util.Optional.orElseGet(Optional.java:369)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:271)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:102)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:101)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:71)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: Error General : "java.lang.IllegalStateException: The file is locked: nio:C:/Users/quiro/Desktop/proyectofacturacion/data/coderHouse.mv.db [1.4.200/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/quiro/Desktop/proyectofacturacion/data/coderHouse.mv.db [1.4.200/7]" [50000-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:505)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	... 130 more
+Caused by: java.lang.IllegalStateException: The file is locked: nio:C:/Users/quiro/Desktop/proyectofacturacion/data/coderHouse.mv.db [1.4.200/7]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:950)
+	at org.h2.mvstore.FileStore.open(FileStore.java:172)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:381)
+	... 124 more
+2022-04-03 22:13:01 database: flush
+org.h2.message.DbException: Error General : "java.lang.IllegalStateException: The file is locked: nio:C:/Users/quiro/Desktop/proyectofacturacion/data/coderHouse.mv.db [1.4.200/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/quiro/Desktop/proyectofacturacion/data/coderHouse.mv.db [1.4.200/7]" [50000-200]
+	at org.h2.message.DbException.get(DbException.java:194)
+	at org.h2.message.DbException.convert(DbException.java:347)
+	at org.h2.mvstore.db.MVTableEngine$1.uncaughtException(MVTableEngine.java:93)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:2877)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:481)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:402)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:3579)
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:170)
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:103)
+	at org.h2.engine.Database.getPageStore(Database.java:2659)
+	at org.h2.engine.Database.open(Database.java:675)
+	at org.h2.engine.Database.openDatabase(Database.java:307)
+	at org.h2.engine.Database.<init>(Database.java:301)
+	at org.h2.engine.Engine.openSession(Engine.java:74)
+	at org.h2.engine.Engine.openSession(Engine.java:192)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:171)
+	at org.h2.engine.Engine.createSession(Engine.java:166)
+	at org.h2.engine.Engine.createSession(Engine.java:29)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:340)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:173)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:152)
+	at org.h2.Driver.connect(Driver.java:69)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:330)
+	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.isEmbedded(EmbeddedDatabaseConnection.java:162)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateDefaultDdlAutoProvider.getDefaultDdlAuto(HibernateDefaultDdlAutoProvider.java:42)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.lambda$getVendorProperties$1(HibernateJpaConfiguration.java:130)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateSettings.getDdlAuto(HibernateSettings.java:41)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.determineDdlAuto(HibernateProperties.java:143)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.getAdditionalProperties(HibernateProperties.java:103)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.determineHibernateProperties(HibernateProperties.java:95)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.getVendorProperties(HibernateJpaConfiguration.java:132)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.entityManagerFactory(JpaBaseConfiguration.java:132)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:136)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$8(ClassBasedTestDescriptor.java:363)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:368)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$9(ClassBasedTestDescriptor.java:363)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:362)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:283)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:282)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:272)
+	at java.base/java.util.Optional.orElseGet(Optional.java:369)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:271)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:102)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:101)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:71)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: Error General : "java.lang.IllegalStateException: The file is locked: nio:C:/Users/quiro/Desktop/proyectofacturacion/data/coderHouse.mv.db [1.4.200/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/quiro/Desktop/proyectofacturacion/data/coderHouse.mv.db [1.4.200/7]" [50000-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:505)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	... 137 more
+Caused by: java.lang.IllegalStateException: The file is locked: nio:C:/Users/quiro/Desktop/proyectofacturacion/data/coderHouse.mv.db [1.4.200/7]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:950)
+	at org.h2.mvstore.FileStore.open(FileStore.java:172)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:381)
+	... 131 more
+2022-04-03 22:13:03 database: flush
+org.h2.message.DbException: Error General : "java.lang.IllegalStateException: The file is locked: nio:C:/Users/quiro/Desktop/proyectofacturacion/data/coderHouse.mv.db [1.4.200/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/quiro/Desktop/proyectofacturacion/data/coderHouse.mv.db [1.4.200/7]" [50000-200]
+	at org.h2.message.DbException.get(DbException.java:194)
+	at org.h2.message.DbException.convert(DbException.java:347)
+	at org.h2.mvstore.db.MVTableEngine$1.uncaughtException(MVTableEngine.java:93)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:2877)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:481)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:402)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:3579)
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:170)
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:103)
+	at org.h2.engine.Database.getPageStore(Database.java:2659)
+	at org.h2.engine.Database.open(Database.java:675)
+	at org.h2.engine.Database.openDatabase(Database.java:307)
+	at org.h2.engine.Database.<init>(Database.java:301)
+	at org.h2.engine.Engine.openSession(Engine.java:74)
+	at org.h2.engine.Engine.openSession(Engine.java:192)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:171)
+	at org.h2.engine.Engine.createSession(Engine.java:166)
+	at org.h2.engine.Engine.createSession(Engine.java:29)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:340)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:173)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:152)
+	at org.h2.Driver.connect(Driver.java:69)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:136)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$8(ClassBasedTestDescriptor.java:363)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:368)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$9(ClassBasedTestDescriptor.java:363)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:362)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:283)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:282)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:272)
+	at java.base/java.util.Optional.orElseGet(Optional.java:369)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:271)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:102)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:101)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:71)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: Error General : "java.lang.IllegalStateException: The file is locked: nio:C:/Users/quiro/Desktop/proyectofacturacion/data/coderHouse.mv.db [1.4.200/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/quiro/Desktop/proyectofacturacion/data/coderHouse.mv.db [1.4.200/7]" [50000-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:505)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	... 138 more
+Caused by: java.lang.IllegalStateException: The file is locked: nio:C:/Users/quiro/Desktop/proyectofacturacion/data/coderHouse.mv.db [1.4.200/7]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:950)
+	at org.h2.mvstore.FileStore.open(FileStore.java:172)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:381)
+	... 132 more
+2022-04-04 01:03:50 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP PRODUCTO[*]"; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP PRODUCTO[*]"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP PRODUCTO [42001-200]
+2022-04-04 01:04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DELETE TABLE[*] PRODUCTO"; se esperaba "identifier"
+Syntax error in SQL statement "DELETE TABLE[*] PRODUCTO"; expected "identifier"; SQL statement:
+DELETE TABLE PRODUCTO [42001-200]
+2022-04-04 01:04:06 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DELETE TABLE[*] * PRODUCTO"; se esperaba "identifier"
+Syntax error in SQL statement "DELETE TABLE[*] * PRODUCTO"; expected "identifier"; SQL statement:
+DELETE TABLE * PRODUCTO [42001-200]
+2022-04-04 01:04:33 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DELETE TABLE[*] PRODUCTO"; se esperaba "identifier"
+Syntax error in SQL statement "DELETE TABLE[*] PRODUCTO"; expected "identifier"; SQL statement:
+DELETE TABLE PRODUCTO [42001-200]
+2022-04-04 19:27:06 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE PRODUCTO(ID INTEGER NOT NULL , NOMBRE VARCHAR(150) NOT NULL, STOCK INT NOT NULL,
+                      DETALLE VARCHAR(150) NOT NULL, PRECIO_UNITARIO INT NOT NULL)
+
+
+
+INSERT[*] INTO PRODUCTO(ID, NOMBRE, STOCK, DETALLE, PRECIO_UNITARIO)
+VALUES(9854,'Cubo Rubik', 5, 'Cubo Rubik 3x3 para niños', 1500)"
+Syntax error in SQL statement "CREATE TABLE PRODUCTO(ID INTEGER NOT NULL , NOMBRE VARCHAR(150) NOT NULL, STOCK INT NOT NULL,
+                      DETALLE VARCHAR(150) NOT NULL, PRECIO_UNITARIO INT NOT NULL)
+
+
+
+INSERT[*] INTO PRODUCTO(ID, NOMBRE, STOCK, DETALLE, PRECIO_UNITARIO)
+VALUES(9854,'Cubo Rubik', 5, 'Cubo Rubik 3x3 para niños', 1500)"; SQL statement:
+CREATE TABLE Producto(id INTEGER NOT NULL , nombre VARCHAR(150) NOT NULL, stock INT NOT NULL,
+                      detalle VARCHAR(150) NOT NULL, precio_unitario INT NOT NULL)
+
+
+
+INSERT INTO Producto(id, nombre, stock, detalle, precio_unitario)
+VALUES(9854,'Cubo Rubik', 5, 'Cubo Rubik 3x3 para niños', 1500) [42000-200]
+2022-04-04 19:27:06 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "PRODUCTO" no encontrada
+Table "PRODUCTO" not found; SQL statement:
+INSERT INTO Producto(id, nombre, stock, detalle, precio_unitario)
+VALUES(6543,'Celular Iphone 6', 2, 'Celular Iphone 6 reparado a nuevo', 18500) [42102-200]
+2022-04-04 19:27:06 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "PRODUCTO" no encontrada
+Table "PRODUCTO" not found; SQL statement:
+INSERT INTO Producto(id, nombre, stock, detalle, precio_unitario)
+VALUES(5468,'Mouse Inalambrico', 15, 'Mouse inalámbrico Logitech M170 negro', 1390) [42102-200]
+2022-04-04 19:27:06 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "PRODUCTO" no encontrada
+Table "PRODUCTO" not found; SQL statement:
+INSERT INTO Producto(id, nombre, stock, detalle, precio_unitario)
+VALUES(8654,'Portaminas', 50, 'Lapiz portamina marca "Pizzini" de minas 0.5 de espesor	', 580) [42102-200]
+2022-04-04 19:27:06 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE(ID INTEGER NOT NULL,NOMBRE VARCHAR(150) NOT NULL, APELLIDO VARCHAR(150) NOT NULL, DNI INT NOT NULL, LOCALIDAD VARCHAR(150) NOT NULL, DIRECCION VARCHAR(150) NOT NULL)
+
+
+INSERT[*] INTO CLIENTE(ID, NOMBRE, APELLIDO, DNI, LOCALIDAD, DIRECCION)
+VALUES(3,'Ramon', 'Abila', 3566895, 'Carlos Paz', 'Salguero 245')"
+Syntax error in SQL statement "CREATE TABLE CLIENTE(ID INTEGER NOT NULL,NOMBRE VARCHAR(150) NOT NULL, APELLIDO VARCHAR(150) NOT NULL, DNI INT NOT NULL, LOCALIDAD VARCHAR(150) NOT NULL, DIRECCION VARCHAR(150) NOT NULL)
+
+
+INSERT[*] INTO CLIENTE(ID, NOMBRE, APELLIDO, DNI, LOCALIDAD, DIRECCION)
+VALUES(3,'Ramon', 'Abila', 3566895, 'Carlos Paz', 'Salguero 245')"; SQL statement:
+CREATE TABLE Cliente(id INTEGER NOT NULL,nombre VARCHAR(150) NOT NULL, apellido VARCHAR(150) NOT NULL, dni INT NOT NULL, localidad VARCHAR(150) NOT NULL, direccion VARCHAR(150) NOT NULL)
+
+
+INSERT INTO Cliente(id, nombre, apellido, dni, localidad, direccion)
+VALUES(3,'Ramon', 'Abila', 3566895, 'Carlos Paz', 'Salguero 245') [42000-200]
+2022-04-04 19:27:06 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTE" no encontrada
+Table "CLIENTE" not found; SQL statement:
+INSERT INTO Cliente(id, nombre, apellido, dni, localidad, direccion)
+VALUES(65,'	Miguel', 'Balangero', 40559255, 'San Francisco', 'W. PAunero 2453') [42102-200]
+2022-04-04 19:27:06 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTE" no encontrada
+Table "CLIENTE" not found; SQL statement:
+INSERT INTO Cliente(id, nombre, apellido, dni, localidad, direccion)
+VALUES(68, 'Patricia', 'Sosa', 30265849, 'Gral. Deheza', 'Alverar 598') [42102-200]
+2022-04-04 19:27:06 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTE" no encontrada
+Table "CLIENTE" not found; SQL statement:
+INSERT INTO Cliente(id, nombre, apellido, dni, localidad, direccion)
+VALUES(92, 'Pablo', 'Centeno', 41998658, 'Rio Cuarto', 'Bolivia 1105') [42102-200]
+2022-04-04 19:27:06 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTE" no encontrada
+Table "CLIENTE" not found; SQL statement:
+INSERT INTO Cliente(id, nombre, apellido, dni, localidad, direccion)
+VALUES(11, 'Alexis', 'Quiroga', 40300234, 'Rio Tercero', 'Bv. Chacabuco 450') [42102-200]
+2022-04-04 19:27:36 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE PRODUCTO(ID INTEGER NOT NULL , NOMBRE VARCHAR(150) NOT NULL, STOCK INT NOT NULL,
+                      DETALLE VARCHAR(150) NOT NULL, PRECIO_UNITARIO INT NOT NULL)
+
+
+
+INSERT[*] INTO PRODUCTO(ID, NOMBRE, STOCK, DETALLE, PRECIO_UNITARIO)
+VALUES(9854,'Cubo Rubik', 5, 'Cubo Rubik 3x3 para niños', 1500)"
+Syntax error in SQL statement "CREATE TABLE PRODUCTO(ID INTEGER NOT NULL , NOMBRE VARCHAR(150) NOT NULL, STOCK INT NOT NULL,
+                      DETALLE VARCHAR(150) NOT NULL, PRECIO_UNITARIO INT NOT NULL)
+
+
+
+INSERT[*] INTO PRODUCTO(ID, NOMBRE, STOCK, DETALLE, PRECIO_UNITARIO)
+VALUES(9854,'Cubo Rubik', 5, 'Cubo Rubik 3x3 para niños', 1500)"; SQL statement:
+CREATE TABLE Producto(id INTEGER NOT NULL , nombre VARCHAR(150) NOT NULL, stock INT NOT NULL,
+                      detalle VARCHAR(150) NOT NULL, precio_unitario INT NOT NULL)
+
+
+
+INSERT INTO Producto(id, nombre, stock, detalle, precio_unitario)
+VALUES(9854,'Cubo Rubik', 5, 'Cubo Rubik 3x3 para niños', 1500) [42000-200]
+2022-04-04 19:27:36 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "PRODUCTO" no encontrada
+Table "PRODUCTO" not found; SQL statement:
+INSERT INTO Producto(id, nombre, stock, detalle, precio_unitario)
+VALUES(6543,'Celular Iphone 6', 2, 'Celular Iphone 6 reparado a nuevo', 18500) [42102-200]
+2022-04-04 19:27:36 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "PRODUCTO" no encontrada
+Table "PRODUCTO" not found; SQL statement:
+INSERT INTO Producto(id, nombre, stock, detalle, precio_unitario)
+VALUES(5468,'Mouse Inalambrico', 15, 'Mouse inalámbrico Logitech M170 negro', 1390) [42102-200]
+2022-04-04 19:27:36 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "PRODUCTO" no encontrada
+Table "PRODUCTO" not found; SQL statement:
+INSERT INTO Producto(id, nombre, stock, detalle, precio_unitario)
+VALUES(8654,'Portaminas', 50, 'Lapiz portamina marca "Pizzini" de minas 0.5 de espesor	', 580) [42102-200]
+2022-04-04 19:28:31 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE PRODUCTO(ID INTEGER NOT NULL AUTOINCREMENT[*] , NOMBRE VARCHAR(150) NOT NULL, STOCK INT NOT NULL, DETALLE VARCHAR(150) NOT NULL, PRECIO_UNITARIO INT NOT NULL)"; se esperaba "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE PRODUCTO(ID INTEGER NOT NULL AUTOINCREMENT[*] , NOMBRE VARCHAR(150) NOT NULL, STOCK INT NOT NULL, DETALLE VARCHAR(150) NOT NULL, PRECIO_UNITARIO INT NOT NULL)"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE Producto(id INTEGER NOT NULL AUTOINCREMENT , nombre VARCHAR(150) NOT NULL, stock INT NOT NULL, detalle VARCHAR(150) NOT NULL, precio_unitario INT NOT NULL) [42001-200]
+2022-04-04 19:37:32 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO CLIENTE(ID, NOMBRE, APELLIDO, DNI, LOCALIDAD, DIRECCION)
+VALUES(,[*]'Ramon', 'Abila', 3566895, 'Carlos Paz', 'Salguero 245')"; se esperaba "), DEFAULT, NOT, EXISTS, INTERSECTS, UNIQUE"
+Syntax error in SQL statement "INSERT INTO CLIENTE(ID, NOMBRE, APELLIDO, DNI, LOCALIDAD, DIRECCION)
+VALUES(,[*]'Ramon', 'Abila', 3566895, 'Carlos Paz', 'Salguero 245')"; expected "), DEFAULT, NOT, EXISTS, INTERSECTS, UNIQUE"; SQL statement:
+INSERT INTO Cliente(id, nombre, apellido, dni, localidad, direccion)
+VALUES(,'Ramon', 'Abila', 3566895, 'Carlos Paz', 'Salguero 245') [42001-200]
+2022-04-04 19:37:32 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO CLIENTE(ID, NOMBRE, APELLIDO, DNI, LOCALIDAD, DIRECCION)
+VALUES(,[*]'	Miguel', 'Balangero', 40559255, 'San Francisco', 'W. PAunero 2453')"; se esperaba "), DEFAULT, NOT, EXISTS, INTERSECTS, UNIQUE"
+Syntax error in SQL statement "INSERT INTO CLIENTE(ID, NOMBRE, APELLIDO, DNI, LOCALIDAD, DIRECCION)
+VALUES(,[*]'	Miguel', 'Balangero', 40559255, 'San Francisco', 'W. PAunero 2453')"; expected "), DEFAULT, NOT, EXISTS, INTERSECTS, UNIQUE"; SQL statement:
+INSERT INTO Cliente(id, nombre, apellido, dni, localidad, direccion)
+VALUES(,'	Miguel', 'Balangero', 40559255, 'San Francisco', 'W. PAunero 2453') [42001-200]
+2022-04-04 19:37:32 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO CLIENTE(ID, NOMBRE, APELLIDO, DNI, LOCALIDAD, DIRECCION)
+VALUES(,[*] 'Patricia', 'Sosa', 30265849, 'Gral. Deheza', 'Alverar 598')"; se esperaba "), DEFAULT, NOT, EXISTS, INTERSECTS, UNIQUE"
+Syntax error in SQL statement "INSERT INTO CLIENTE(ID, NOMBRE, APELLIDO, DNI, LOCALIDAD, DIRECCION)
+VALUES(,[*] 'Patricia', 'Sosa', 30265849, 'Gral. Deheza', 'Alverar 598')"; expected "), DEFAULT, NOT, EXISTS, INTERSECTS, UNIQUE"; SQL statement:
+INSERT INTO Cliente(id, nombre, apellido, dni, localidad, direccion)
+VALUES(, 'Patricia', 'Sosa', 30265849, 'Gral. Deheza', 'Alverar 598') [42001-200]
+2022-04-04 19:37:32 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO CLIENTE(ID, NOMBRE, APELLIDO, DNI, LOCALIDAD, DIRECCION)
+VALUES(,[*] 'Pablo', 'Centeno', 41998658, 'Rio Cuarto', 'Bolivia 1105')"; se esperaba "), DEFAULT, NOT, EXISTS, INTERSECTS, UNIQUE"
+Syntax error in SQL statement "INSERT INTO CLIENTE(ID, NOMBRE, APELLIDO, DNI, LOCALIDAD, DIRECCION)
+VALUES(,[*] 'Pablo', 'Centeno', 41998658, 'Rio Cuarto', 'Bolivia 1105')"; expected "), DEFAULT, NOT, EXISTS, INTERSECTS, UNIQUE"; SQL statement:
+INSERT INTO Cliente(id, nombre, apellido, dni, localidad, direccion)
+VALUES(, 'Pablo', 'Centeno', 41998658, 'Rio Cuarto', 'Bolivia 1105') [42001-200]
+2022-04-04 19:37:32 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO CLIENTE(ID, NOMBRE, APELLIDO, DNI, LOCALIDAD, DIRECCION)
+VALUES(,[*] 'Alexis', 'Quiroga', 40300234, 'Rio Tercero', 'Bv. Chacabuco 450')"; se esperaba "), DEFAULT, NOT, EXISTS, INTERSECTS, UNIQUE"
+Syntax error in SQL statement "INSERT INTO CLIENTE(ID, NOMBRE, APELLIDO, DNI, LOCALIDAD, DIRECCION)
+VALUES(,[*] 'Alexis', 'Quiroga', 40300234, 'Rio Tercero', 'Bv. Chacabuco 450')"; expected "), DEFAULT, NOT, EXISTS, INTERSECTS, UNIQUE"; SQL statement:
+INSERT INTO Cliente(id, nombre, apellido, dni, localidad, direccion)
+VALUES(, 'Alexis', 'Quiroga', 40300234, 'Rio Tercero', 'Bv. Chacabuco 450') [42001-200]
+2022-04-11 19:06:54 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE PRODUCTO(ID INT NOT NULL , NOMBRE VARCHAR(150) NOT NULL, STOCK INT NOT NULL,
+                      DETALLE VARCHAR(150) NOT NULL, PRECIO_UNITARIO INT NOT NULL)
+
+
+
+INSERT[*] INTO PRODUCTO(ID, NOMBRE, STOCK, DETALLE, PRECIO_UNITARIO)
+VALUES(9854,'Cubo Rubik', 5, 'Cubo Rubik 3x3 para niños', 1500)"
+Syntax error in SQL statement "CREATE TABLE PRODUCTO(ID INT NOT NULL , NOMBRE VARCHAR(150) NOT NULL, STOCK INT NOT NULL,
+                      DETALLE VARCHAR(150) NOT NULL, PRECIO_UNITARIO INT NOT NULL)
+
+
+
+INSERT[*] INTO PRODUCTO(ID, NOMBRE, STOCK, DETALLE, PRECIO_UNITARIO)
+VALUES(9854,'Cubo Rubik', 5, 'Cubo Rubik 3x3 para niños', 1500)"; SQL statement:
+CREATE TABLE Producto(id INT NOT NULL , nombre VARCHAR(150) NOT NULL, stock INT NOT NULL,
+                      detalle VARCHAR(150) NOT NULL, precio_unitario INT NOT NULL)
+
+
+
+INSERT INTO Producto(id, nombre, stock, detalle, precio_unitario)
+VALUES(9854,'Cubo Rubik', 5, 'Cubo Rubik 3x3 para niños', 1500) [42000-200]
+2022-04-11 19:06:54 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "PRODUCTO" no encontrada
+Table "PRODUCTO" not found; SQL statement:
+INSERT INTO Producto(id, nombre, stock, detalle, precio_unitario)
+VALUES(6543,'Celular Iphone 6', 2, 'Celular Iphone 6 reparado a nuevo', 18500) [42102-200]
+2022-04-11 19:06:54 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "PRODUCTO" no encontrada
+Table "PRODUCTO" not found; SQL statement:
+INSERT INTO Producto(id, nombre, stock, detalle, precio_unitario)
+VALUES(5468,'Mouse Inalambrico', 15, 'Mouse inalámbrico Logitech M170 negro', 1390) [42102-200]
+2022-04-11 19:06:54 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "PRODUCTO" no encontrada
+Table "PRODUCTO" not found; SQL statement:
+INSERT INTO Producto(id, nombre, stock, detalle, precio_unitario)
+VALUES(8654,'Portaminas', 50, 'Lapiz portamina marca "Pizzini" de minas 0.5 de espesor	', 580) [42102-200]
+2022-04-11 19:06:54 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE CLIENTE(ID INT NOT NULL,NOMBRE VARCHAR(150) NOT NULL, APELLIDO VARCHAR(150) NOT NULL, DNI INT NOT NULL, LOCALIDAD VARCHAR(150) NOT NULL, DIRECCION VARCHAR(150) NOT NULL)
+
+
+INSERT[*] INTO CLIENTE(ID, NOMBRE, APELLIDO, DNI, LOCALIDAD, DIRECCION)
+VALUES(3,'Ramon', 'Abila', 3566895, 'Carlos Paz', 'Salguero 245')"
+Syntax error in SQL statement "CREATE TABLE CLIENTE(ID INT NOT NULL,NOMBRE VARCHAR(150) NOT NULL, APELLIDO VARCHAR(150) NOT NULL, DNI INT NOT NULL, LOCALIDAD VARCHAR(150) NOT NULL, DIRECCION VARCHAR(150) NOT NULL)
+
+
+INSERT[*] INTO CLIENTE(ID, NOMBRE, APELLIDO, DNI, LOCALIDAD, DIRECCION)
+VALUES(3,'Ramon', 'Abila', 3566895, 'Carlos Paz', 'Salguero 245')"; SQL statement:
+CREATE TABLE Cliente(id INT NOT NULL,nombre VARCHAR(150) NOT NULL, apellido VARCHAR(150) NOT NULL, dni INT NOT NULL, localidad VARCHAR(150) NOT NULL, direccion VARCHAR(150) NOT NULL)
+
+
+INSERT INTO Cliente(id, nombre, apellido, dni, localidad, direccion)
+VALUES(3,'Ramon', 'Abila', 3566895, 'Carlos Paz', 'Salguero 245') [42000-200]
+2022-04-11 19:06:54 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTE" no encontrada
+Table "CLIENTE" not found; SQL statement:
+INSERT INTO Cliente(id, nombre, apellido, dni, localidad, direccion)
+VALUES(65,'	Miguel', 'Balangero', 40559255, 'San Francisco', 'W. PAunero 2453') [42102-200]
+2022-04-11 19:06:54 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTE" no encontrada
+Table "CLIENTE" not found; SQL statement:
+INSERT INTO Cliente(id, nombre, apellido, dni, localidad, direccion)
+VALUES(68, 'Patricia', 'Sosa', 30265849, 'Gral. Deheza', 'Alverar 598') [42102-200]
+2022-04-11 19:06:54 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTE" no encontrada
+Table "CLIENTE" not found; SQL statement:
+INSERT INTO Cliente(id, nombre, apellido, dni, localidad, direccion)
+VALUES(92, 'Pablo', 'Centeno', 41998658, 'Rio Cuarto', 'Bolivia 1105') [42102-200]
+2022-04-11 19:06:54 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTE" no encontrada
+Table "CLIENTE" not found; SQL statement:
+INSERT INTO Cliente(id, nombre, apellido, dni, localidad, direccion)
+VALUES(11, 'Alexis', 'Quiroga', 40300234, 'Rio Tercero', 'Bv. Chacabuco 450') [42102-200]
